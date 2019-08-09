@@ -12,6 +12,10 @@ import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.os.Build;
 import android.util.Log;
+import android.text.TextUtils;
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.io.IOException;
 
 import java.util.Calendar;
 import java.util.List;
@@ -21,7 +25,7 @@ import java.util.concurrent.TimeUnit;
  * Created by chris on 2018-01-11.
  */
 
-public static class BackgroundFetchHelper
+public class BackgroundFetchHelper
 {
     public static boolean UseJobService()
     {
