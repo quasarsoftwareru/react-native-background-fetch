@@ -16,6 +16,7 @@ import android.util.Log;
 import java.util.Calendar;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
+import com.transistorsoft.tsbackgroundfetch.BackgroundFetchHelper;
 
 /**
  * Created by chris on 2018-01-11.
@@ -59,7 +60,7 @@ public class BackgroundFetch {
     private BackgroundFetch(Context context) {
         mContext = context;
         
-        m_useJobService = android.os.Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP;
+        m_useJobService = BackgroundFetchHelper.UseJobService();
         //m_useJobService = false;
     }
 
