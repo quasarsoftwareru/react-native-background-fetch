@@ -25,7 +25,13 @@ repositories{
     }
 }
 
+
 dependencies {
     compileOnly 'com.facebook.react:react-native:+'
-    implementation(group: 'com.transistorsoft', name:'tsbackgroundfetch', version: '+')
+    //implementation(group: 'com.transistorsoft', name:'tsbackgroundfetch', version: '+')
+    //implementation project(':tsbackgroundfetch')
+    
+    //implementation 'com.github.quasarsoftwareru:transistor-background-fetch:Tag'
+    
+    //implementation project(path:':tsbackgroundfetch', configuration: 'default')
 }

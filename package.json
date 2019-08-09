@@ -1,14 +1,46 @@
 {
-  "name": "react-native-background-fetch",
-  "version": "2.6.1",
+  "_from": "react-native-background-fetch@^2.6.1",
+  "_id": "react-native-background-fetch@2.6.1",
+  "_inBundle": false,
+  "_integrity": "sha512-/P6GceM1/OvTeHmnwEYJl89FAY2ExpAJfMC4Z1eYUIMwR93Vv2ZLEYa5FHyhItMMeg2ZzlEXmiZTVZ6IbYeb+A==",
+  "_location": "/react-native-background-fetch",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "react-native-background-fetch@^2.6.1",
+    "name": "react-native-background-fetch",
+    "escapedName": "react-native-background-fetch",
+    "rawSpec": "^2.6.1",
+    "saveSpec": null,
+    "fetchSpec": "^2.6.1"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/react-native-background-fetch/-/react-native-background-fetch-2.6.1.tgz",
+  "_shasum": "a38c298cf748ba332e51c724ad4d7af8677929af",
+  "_spec": "react-native-background-fetch@^2.6.1",
+  "_where": "f:\\quasar\\meta-trak-t2",
+  "author": {
+    "name": "Chris Scott, Transistor Software",
+    "email": "chris@transistorsoft.com"
+  },
+  "bugs": {
+    "url": "https://github.com/transistorsoft/react-native-background-fetch/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "fast-plist": "^0.1.2",
+    "plist": "^3.0.1",
+    "xcode": "^2.0.0"
+  },
+  "deprecated": false,
   "description": "iOS & Android BackgroundFetch API implementation for React Native",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "devDependencies": {
+    "react-native": "^0.52.0"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@github.com/transistorsoft/react-native-background-fetch.git"
-  },
+  "homepage": "https://transistorsoft.github.io/react-native-background-fetch",
   "keywords": [
     "react-native",
     "react-component",
@@ -16,10 +48,14 @@
     "background",
     "fetch"
   ],
-  "author": "Chris Scott, Transistor Software <chris@transistorsoft.com>",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/transistorsoft/react-native-background-fetch/issues"
+  "name": "react-native-background-fetch",
+  "peerDependencies": {
+    "react-native": ">=0.28.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/transistorsoft/react-native-background-fetch.git"
   },
   "rnpm": {
     "commands": {
@@ -27,16 +63,8 @@
       "postunlink": "node node_modules/react-native-background-fetch/scripts/postunlink.js"
     }
   },
-  "homepage": "https://transistorsoft.github.io/react-native-background-fetch",
-  "peerDependencies": {
-    "react-native": ">=0.28.0"
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "devDependencies": {
-    "react-native": "^0.52.0"
-  },
-  "dependencies": {
-    "fast-plist": "^0.1.2",
-    "plist": "^3.0.1",
-    "xcode": "^2.0.0"
-  }
+  "version": "2.6.1"
 }
